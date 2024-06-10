@@ -16,7 +16,7 @@ public class CollectionList02 {
 		numero = sc.nextInt();
 		
 		if(numeros.contains(numero)) {
-			System.out.println("O número está na localizado na posição: " + numeros.get(numero));
+			System.out.println("O número está na localizado na posição: " + numeros.indexOf(numero));
 		} else {
 			System.out.printf("O número %d não foi encontrado!", numero);
 		}
